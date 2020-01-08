@@ -1,5 +1,29 @@
+@import '../../sass/variable.scss';
 .portfolio-container{
     margin-top: 2rem;
+    ul{
+        li{
+            color: $green-font;
+            span{
+                color: black;
+            }
+        }
+    }
+    .skills-list{
+        padding-left: 5rem;
+        padding-right: 4rem;
+    }
+    // ul {
+    //     list-style: none; /* Remove default bullets */
+    //   }
+      
+    //   ul li::before {
+    //     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    //     color: $green-font; /* Change the color */
+    //     font-weight: bold; /* If you want it to be bold */
+    //     display: inline-block; /* Needed to add space between the bullet and the text */
+    //     width: 1em; /* Also needed for space (tweak if needed) */
+    //   }
 }
 .summary-text{
     padding-left:3rem ;

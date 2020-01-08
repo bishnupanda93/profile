@@ -9,11 +9,12 @@ const Portfolio =(props)=>{
             <div key={index}>
                 <SubTitle organisation={organisation} role={role}></SubTitle>
                 <Tenure startDate={tenureStart} endDate={tenureEnd}></Tenure>
-                <ul>
-                    {experienceDetail.map((expDetail,j) => <li key={j}>{expDetail}</li>)}
+                <ul className={classes['skills-list']}>
+                    {experienceDetail.map((expDetail,j) => <li key={j}><span>{expDetail}</span></li>)}
                 </ul>
             </div>
             )))
+            const listClasses = [classes['skills-list'],'row'];
     
     return(
         <div className={classes['portfolio-container']}>
@@ -23,16 +24,16 @@ const Portfolio =(props)=>{
             </div>
             <div>
                 <Title value="Skills" icon="fa fa-wrench"></Title>
-                <ul className="row">
+                <ul className={listClasses.join(" ")}>
                    { props.skills.map((skill,index)=>
-                   (<li key={index} className="col-4">{skill}</li>))}
+                   (<li key={index} className="col-4"><span>{skill}</span></li>))}
                 </ul>
             </div>
             <div>
                 <Title value="Experience" icon="fa fa-briefcase"></Title>
                 <SubTitle organisation="Tata Consultancy Services" role="Frontend Developer"></SubTitle>
                 <Tenure startDate="AUG 2015" endDate="PRESENT"></Tenure>
-                <p>IT Analyst at TCS and following are accounts/clients’ projects that I have worked upon:</p>
+                <p className={classes['summary-text']}>IT Analyst at TCS and following are accounts/clients’ projects that I have worked upon:</p>
                 {experience}
             </div>
             <div>
