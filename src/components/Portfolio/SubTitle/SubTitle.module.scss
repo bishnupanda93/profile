@@ -11,4 +11,7 @@
     padding-left:3rem ;
     padding-right: 4rem;
     margin-bottom: 0;
+    @media screen and (max-width:576px){
+        padding: 0 2rem;
+    }
 }

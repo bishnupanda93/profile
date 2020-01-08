@@ -14,7 +14,7 @@ const Portfolio =(props)=>{
                 </ul>
             </div>
             )))
-            const listClasses = [classes['skills-list'],'row'];
+            const listClasses = [classes['skills-list'],'row no-gutters'];
     
     return(
         <div className={classes['portfolio-container']}>
@@ -26,7 +26,7 @@ const Portfolio =(props)=>{
                 <Title value="Skills" icon="fa fa-wrench"></Title>
                 <ul className={listClasses.join(" ")}>
                    { props.skills.map((skill,index)=>
-                   (<li key={index} className="col-4"><span>{skill}</span></li>))}
+                   (<li key={index} className="col-sm-4"><span>{skill}</span></li>))}
                 </ul>
             </div>
             <div className="mt-4 pt-2">
