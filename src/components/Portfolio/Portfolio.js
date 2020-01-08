@@ -22,21 +22,21 @@ const Portfolio =(props)=>{
                 <Title value="Summary" icon="fa fa-bars"></Title>
                 <p className={classes['summary-text']}>{props.summary}</p>
             </div>
-            <div>
+            <div className="mt-4 pt-2">
                 <Title value="Skills" icon="fa fa-wrench"></Title>
                 <ul className={listClasses.join(" ")}>
                    { props.skills.map((skill,index)=>
                    (<li key={index} className="col-4"><span>{skill}</span></li>))}
                 </ul>
             </div>
-            <div>
+            <div className="mt-4 pt-2">
                 <Title value="Experience" icon="fa fa-briefcase"></Title>
                 <SubTitle organisation="Tata Consultancy Services" role="Frontend Developer"></SubTitle>
                 <Tenure startDate="AUG 2015" endDate="PRESENT"></Tenure>
                 <p className={classes['summary-text']}>IT Analyst at TCS and following are accounts/clients’ projects that I have worked upon:</p>
                 {experience}
             </div>
-            <div>
+            <div className="mt-4 pt-2">
                 <Title value="Education" icon ="fa fa-university"></Title>
                 <SubTitle organisation="University of Mumbai" role="Bachelor of Engineering"></SubTitle>
                 <Tenure startDate="2011" endDate="2015"></Tenure>
