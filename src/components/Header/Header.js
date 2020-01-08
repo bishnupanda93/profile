@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Header.module.scss';
 const Header = (props)=>{
     return(
-        <div className={[classes.header, 'row pb-4 px-5 pt-5 mb-4'].join(" ")}>
+        <div className={[classes.header, 'row pb-4 px-4 px-sm-5 pt-5 mb-4'].join(" ")}>
             <div className="col-md-9 d-flex flex-column-reverse">
             <h1 className="text-uppercase">{props.personDetails.name}</h1>
             </div>
