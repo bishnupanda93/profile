@@ -10,7 +10,7 @@ function App() {
     email:'guptapriyab@gmail.com',
     linkedIn:'https://www.linkedin.com/in/priya-gupta-46549aab'
   }
-  const summary = 'Highly creative, sassy and motivated front-end web developer with 4.25 years of experience in building and maintaining responsive websites. Passionate about building pixel perfect application, with focus on consistency and reusability of components. Proficient in modern libraries and frameworks and experience in Agile development method.';
+  const summary = 'Highly creative, sassy and motivated front-end web developer with 4.5 years of experience in building and maintaining responsive websites. Passionate about building pixel perfect application, with focus on consistency and reusability of components. Proficient in modern libraries and frameworks and experience in Agile development method.';
   const skills=[
     'HTML5, CSS3, JavaScript ',
     'React, Redux, ES6, Jest',
