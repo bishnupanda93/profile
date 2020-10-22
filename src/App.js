@@ -4,7 +4,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const person ={
-    name : 'Priya Gupta',
+    name : 'Bishnu Panda',
     address: 'Amstelveen, NL',
     phone :'+31 645827857',
     email:'guptapriyab@gmail.com',
