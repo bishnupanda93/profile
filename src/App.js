@@ -4,18 +4,18 @@ import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const person ={
-    name : 'Bishnu Panda',
-    address: 'Mumbai, India',
-    phone :'+91 6371744055',
+    name : 'Bishnu Prasad Panda',
+    address: 'Amsterdam, Netherlands',
+    phone :'+31 6 26339605',
     email:'pandabishnu525@gmail.com',
     linkedIn:'https://www.linkedin.com/in/bishnu-panda-309669113'
   }
-  const summary = 'Highly enthosiastic and motivated QA engineer with 4.7 years of experience in building and maintaining Automated frameworks for both front-end applications and web services. Passionate about learning new technologies and tools.Proficient in both functional- manual testing and non-functional-performance testing and experience in Agile development method.';
+  const summary = 'Highly enthusiastic and motivated QA engineer with 7 years of experience in building and maintaining Automated frameworks for both front-end applications and web services. Passionate about learning new technologies and tools.Proficient in both functional- manual testing and non-functional-performance testing and experience in Agile development method.';
   const skills=[
-    'Functional Testing-: Web Services,	Web Applications, Mobile Applications,	DataBase Testing, Batch Jobs Testing',
-    'Automation Testing-: UFT,	Selenium, Rest Assured, Protractor, Postman',
-    'Performance Testing-: LoadRunner, Jmeter',
-    'Tools & Technology-: JavaScript, AngularJs, JIRA, Soap UI, Postman, ALM, SQL Server Management Studio, Visual Studio Code,	Bitbucket, Fiddler, Git, SVN',
+    'Functional Testing-: Web Services,	Web Applications, Mobile Applications, DataBase Testing, Batch Jobs Testing',
+    'Automation Testing-: Playwright, Webdriver IO, Testcafe, UFT, Selenium, Rest Assured, Protractor, Postman',
+    'Performance Testing-: Neoload, LoadRunner, Jmeter',
+    'Tools & Technology-: Azure, JavaScript, AngularJs, JIRA, Soap UI, Postman, ALM, SQL Server Management Studio, Visual Studio Code, Bitbucket, Fiddler, Git, SVN',
   ];
   const experience =[
     {
